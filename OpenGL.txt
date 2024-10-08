@@ -1,0 +1,8 @@
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\glut.h
+
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\lib\glut32.lib
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\lib\x86\glut32.lib
+
+C:\Windows\System32\glut32.dll
+
+C:\Windows\SysWOW64\glut32.dll

@@ -1,0 +1,33 @@
+#include<glut.h>
+
+void RenderScene(void)
+{
+	
+	glClear(GL_COLOR_BUFFER_BIT );
+	glFlush();
+}
+
+void SetupRC()
+{
+	glClearColor(1, 0, 0, 1);
+}
+
+int main(int argc, char* argv[])
+{
+	//1) intialization:
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA );
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(500, 350);
+	glutCreateWindow("Rctangle");
+	
+
+	// 2) Callback :
+	glutDisplayFunc(RenderScene);
+	SetupRC();
+
+	// 3) Event loop:
+	glutMainLoop();
+
+	return 0;
+}
